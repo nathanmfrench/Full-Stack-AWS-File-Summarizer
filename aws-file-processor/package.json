@@ -1,0 +1,36 @@
+{
+  "name": "aws-file-processor",
+  "version": "0.1.0",
+  "bin": {
+    "aws-file-processor": "bin/aws-file-processor.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/jest": "^29.5.14",
+    "@types/node": "22.7.9",
+    "aws-cdk": "2.166.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.3"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-s3-deployment": "^1.204.0",
+    "@aws-sdk/client-dynamodb": "^3.692.0",
+    "@aws-sdk/client-ec2": "^3.692.0",
+    "@aws-sdk/client-s3": "^3.692.0",
+    "@aws-sdk/s3-request-presigner": "^3.692.0",
+    "@types/node-fetch": "^2.6.12",
+    "aws-cdk-lib": "^2.166.0",
+    "constructs": "^10.0.0",
+    "node-fetch": "^3.3.2",
+    "source-map-support": "^0.5.21",
+    "uuid": "^11.0.3"
+  }
+}
