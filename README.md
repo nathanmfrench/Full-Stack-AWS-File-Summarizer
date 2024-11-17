@@ -1,5 +1,7 @@
 # Full Stack File Summarizer
 
+## To see it in action, view the file-processor-demo.mp4 file
+
 ## Architecture Flow (overview)
 - User uploads text file or types input via frontend
 - File is stored in S3
