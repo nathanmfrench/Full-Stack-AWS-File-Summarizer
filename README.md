@@ -1,7 +1,7 @@
 # Full Stack File Summarizer
 
 ## Video demo
- - file-processor-demo.mp4 file in the repository
+ - file-processor-demo.mp4 file located in this repository
 
 ## Architecture Flow (overview)
 - User uploads text file or types input via frontend
