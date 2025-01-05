@@ -12,6 +12,10 @@
 - Results stored back in S3 and DynamoDB
 - EC2 instance self-terminates
 
+## Architecture Diagram
+
+![aws-full-stack-flow](https://github.com/user-attachments/assets/ca751784-9f32-4981-9cfc-348b0eb1b1aa)
+
 ## Infrastructure Components
 
 ### Frontend
@@ -47,10 +51,6 @@
 - Secure credential management
 - EC2 auto-termination
 - Private subnet deployment
-
-## Architecture Diagram
-
-![aws-full-stack-flow](https://github.com/user-attachments/assets/ca751784-9f32-4981-9cfc-348b0eb1b1aa)
 
 ## Deployment Instructions
 
