@@ -1,8 +1,5 @@
 # Full Stack File Summarizer
 
-## Video demo
- - file-processor-demo.mp4 file located in this repository
-
 ## Architecture Flow (overview)
 - User uploads text file or types input via frontend
 - File is stored in S3
@@ -11,7 +8,6 @@
 - OpenAI generates summary
 - Results stored back in S3 and DynamoDB
 - EC2 instance self-terminates
-
 
 ## Infrastructure Components
 
